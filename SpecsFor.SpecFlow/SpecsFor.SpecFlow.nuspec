@@ -4,12 +4,12 @@
 	<id>$id$</id>
 	<version>$version$</version>
 	<title>$title$</title>
-	<authors>Matt Honeycutt</authors>
+	<authors>Matt Honeycutt, Paul Atkins</authors>
 	<owners>Matt Honeycutt</owners>
 	<licenseUrl>http://specsfor.codeplex.com/license</licenseUrl>
 	<projectUrl>http://specsfor.com/</projectUrl>
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>SpecsFor.SpecFlow enables linking of SpecFlow Scenarios to the SpecsFor testing framework.</description>
+    <description>SpecsFor.SpecFlow enables integration of SpecFlow Scenarios with the SpecsFor testing framework.</description>
 	<tags>testing tdd bdd specs acceptance-tests ui-testing specflow</tags>
   </metadata>
 </package>

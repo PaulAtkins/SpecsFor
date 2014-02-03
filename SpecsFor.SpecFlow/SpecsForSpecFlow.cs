@@ -23,5 +23,10 @@ namespace SpecsFor.SpecFlow
 		{
 			base.BaseTearDown();
 		}
+		
+		// Hide the SpecsFor methods, as the
+		// SpecFlow ones will be used instead
+		protected override void Given() { }
+		protected override void When() { }
 	}
 }

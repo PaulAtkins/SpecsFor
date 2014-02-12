@@ -129,7 +129,7 @@ namespace SpecsFor.Mvc
             var helper = new HtmlHelper(new ViewContext { HttpContext = FakeHttpContext.Root() }, new FakeViewDataContainer());
             //TODO: workaround to fixes MattHoneycutt/SpecsFor#25
             var url = BuildUrlFromExpression(helper.ViewContext.RequestContext, helper.RouteCollection, action);
-            var element = Browser.FindElement(By.CssSelector("a[href='" + url + "']"));
+            var element = Browser.FindElement(By.CssSelector("a[href='~" + url + "']"));
 
             return element;
         }
